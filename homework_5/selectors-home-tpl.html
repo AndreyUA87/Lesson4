@@ -72,12 +72,39 @@
 			background-color: black;
 			color: aliceblue;
 		}
-		.messeges .messeges {
+		.messages-bloc div {
 			border-style: groove; border-color: red;
 			color: white;
 			background-color: blue;
 		}
-		
+		.all-messages ul#messages {
+			color: rgb(255, 255, 255);
+			background-color: black;
+			
+			
+		}
+		.all-footer footer {
+			background-color: rgb(205, 245, 26);
+			color: blue;
+		}
+		.select-all-body > a:active{
+			color: rgb(0, 255, 64);
+		}
+		.link div > ul a:hover {
+			color: rgb(255, 0, 0);
+			background: #786b59;
+		}
+		.select-type-checkbox input[type="checkbox"]{
+			height: 50px;
+			width: 50px;
+			box-shadow:inset 0 0 20px 4px rgb(221, 84, 20);
+		}
+		.select-all-body * {
+			color: blue;
+		}
+		.select-all-li footer ul li {
+			background-color: red;
+		}
 	</style>
 </head>
 <body>
@@ -100,8 +127,15 @@
 		<li data-name="select-all-links-form-footer">Найти ссылки в "подвале"</li>
 		<li data-name="select-all-class-list">Найти все списки которые имеют класс list"</li>
 		<li data-name="all-ul-li">Найти ссылки которе в списке"</li>
-		<li data-name="messeges">Найти блок с сообщениями"</li>
-
+		<li data-name="messages-bloc">Найти блок с сообщениями"</li>
+		<li data-name="all-messages">Найти все сообщения"</li>
+		<li data-name="all-footer">Найти все элементы в подвале</li>
+		<li data-name="select-all-body">Найти ссылки которые "активны" и дети для body</li>
+		<li data-name="link">Найти ссылки на которые наведен курсор и которые находиться в блоке с сообщениями</li>
+		<li data-name="select-type-checkbox">Выбрать input типа checkbox</li>
+		<li data-name="select-all-body">Найти все элементы которые непосредственные потомки (дети) для body</li>
+		<li data-name="select-all-li">Найти список который следует за заголовком в подвале</li>
+		
 <!--        <li data-name="select-input-checkbox">Выбрать input типа checkbox</li>-->
 <!--        <li data-name="select-all-links-form-footer">Найти ссылки в "подвале"</li>-->
 	</ul>
@@ -144,7 +178,7 @@
             <input type="text" id="message">
         </form>
 
-	<div class="messeges">
+	<div class="messages-bloc">
         <h3 id="widget-title">Сообщения:</h3>
         <ul id="messages" class="list">
             <li id="message-1">Сообщение 1</li>
