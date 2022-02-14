@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(233, 231, 229);
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.wrap-container {
+    text-align: center;
+}
+
+.wrap-container .border {
+    border: 2px solid rgb(192, 187, 187);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 25%;
+    height: 25%;
+    display: inline-block;
+    background-color: white;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 65%;
+    height: auto;
+}
+
+.wrap-container .tittle {
+    font-size: 18px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 187, 187);
+    margin: 5px;
+}
+
+.line-through-text {
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.text-sale {
+    font-size: 22px;
+    color: red;
+}
+
+.border .button {
+    font-size: 24px;
+    margin: 10px;
+    background-color: #FFC000;
+    border-radius: 10px;
+}
