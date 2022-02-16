@@ -50,4 +50,9 @@ img {
     margin: 10px;
     background-color: #FFC000;
     border-radius: 10px;
+    
+}
+
+a {
+    text-decoration: none;
 }
