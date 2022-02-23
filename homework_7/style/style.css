@@ -14,11 +14,12 @@ body {
     margin: 10px;
 }
 
-.border div {
+.square {
     background-color: #0808fa;
     width: 100px;
     height: 100px;
     margin: 25px;
+
 }
 
 .left {
@@ -33,28 +34,33 @@ div.little {
     width: 50px;
     height: 50px;
     margin: 50px 25px;
+    background-color: #0808fa;
 }
 
 div.big {
     width: 200px;
     height: 200px;
-    margin: 25px 10px 25px 200px;
+    background-color: #0808fa;
+    margin: 25px
 }
 
 div.rectangle {
     width: 200px;
     height: 50px;
-    margin: 25px 200px 25px 10px;
+    background-color: #0808fa;
+    margin: 25px
 }
 
-div.big-two {
-    width: 200px;
-    height: 200px;
-    margin: 25px 10px 25px 380px;
-}
 
 div.rectangle-two {
     width: 200px;
     height: 75px;
-    margin: 25px 25px 25px 10px;
+    background-color: #0808fa;
+    margin: 25px 25px 50px 25px;
+
+
+}
+
+.padding {
+    padding: 0 160px;
 }
