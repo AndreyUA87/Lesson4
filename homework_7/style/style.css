@@ -1,5 +1,6 @@
 body {
-    margin: 0 250px;
+    margin: 0 auto;
+    width: 900px;
 }
 
 .clearfix::before,
