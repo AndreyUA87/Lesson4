@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    background-color: #E5E5E5;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.accent {
+    background-color: #F13C6E;
+}
+
+.secondary {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-menu {
+    background-color: #E5E5E5;
+    padding: 16px 0;
+}
+
+.top-menu li {
+    display: inline-block;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.top-menu a {
+    color: #333333;
+    margin-right: 30px;
+    line-height: 16px;
+}
+
+h1 {
+    color: #F13C6E;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 40px 0;
+    margin-left: 20px;
+
+}
+
+.contacts {
+    padding: 0 405px;
+    border-bottom: 1px solid #EFEFEF
+
+
+}
+
+.logo-beauty {
+    height: 80px;
+    width: 80px;
+    padding: 20px 0;
+
+}
+
+button {
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 12px 26px;
+    margin: 35px 0;
+
+}
+
+.p-number {
+    margin-right: 40px;
+    color: #000;
+    padding: 50px 0;
+
+}
+
+.content-menu {
+    padding: 30px 0;
+    box-sizing: content-box;
+}
+
+.content-menu li {
+    display: inline-block;
+}
+
+.content-menu a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 40px;
+
+}
+
+.promo {
+    width: 1920px;
+    height: 604px;
+    background: url(../img/promo.png);
+    padding: 192px 405px;
+    box-sizing: border-box;
+}
+
+.promo h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+
+section.promo p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    width: 310px;
+    height: 35px;
+    margin-bottom: 62px;
+
+}
+
+.promo a {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 12px 42px;
+    text-align: center;
+
+}
