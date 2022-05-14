@@ -4,6 +4,12 @@ body {
     line-height: 16px;
     color: #000;
     background-color: #E5E5E5;
+
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
 }
 
 .clearfix:before,
@@ -43,7 +49,7 @@ a {
 
 }
 
-.text-center {
+.block-center {
     text-align: center;
 }
 
@@ -79,13 +85,14 @@ h1 {
 
 }
 
-button {
+.btn {
     font-size: 14px;
     line-height: 16px;
     border: 2px solid #F13C6E;
     border-radius: 40px;
     padding: 12px 26px;
     margin: 35px 0;
+    background-color: #fff;
 
 }
 
@@ -93,6 +100,8 @@ button {
     margin-right: 40px;
     color: #000;
     padding: 50px 0;
+    font-size: 16px;
+    line-height: 19px;
 
 }
 
@@ -150,4 +159,251 @@ section.promo p {
     padding: 12px 42px;
     text-align: center;
 
+}
+
+section.cards h2 {
+    margin-top: 80px;
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.cards {
+    margin-left: 405px;
+    margin-bottom: 100px;
+}
+
+.card-img {
+    box-sizing: content-box;
+    width: 255px;
+    height: 363px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.card-img img {
+    display: inline-block;
+    padding: 25px 65px 0 65px;
+    box-sizing: border-box;
+}
+
+.desc {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.desc-price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 20px 0;
+}
+
+div.card-img a {
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    margin-bottom: 25px;
+}
+
+div.clearfix {
+    box-sizing: content-box;
+    margin-left: 405px;
+
+
+}
+
+section div.float-left {
+    padding: 35px 40px;
+}
+
+section.promo-bonus {
+    width: 540px;
+    height: 212px;
+    margin-right: 33px;
+
+
+}
+
+.promo-bonus h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+}
+
+.promo-bonus p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 231px;
+    margin-bottom: 25px;
+
+}
+
+.mail-img {
+
+}
+
+.form-mail{
+    width: 225px;
+    height: 35px;
+    border-radius:30px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #C4C4C4;
+
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.mail-img {
+   padding: 53px 45px 0 0;
+}
+
+.store-map {
+    box-sizing: border-box;
+    width: 540px;
+    height: 212px;
+    margin-bottom: 100px;
+}
+
+.store-map h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+}
+
+.store-map p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 141px;
+    margin-bottom: 34px;
+}
+
+.map {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 9px 29px;
+}
+
+.track-img img {
+    padding: 56px 45px ;
+}
+
+.logo-cards {
+    padding: 35px 65px;
+    background-color: #fff;
+    width: 25%;
+    height: 114px;
+    box-sizing: border-box;
+    border: 1px solid #EFEFEF;
+}
+
+section.cards.look {
+    margin-bottom: 80px;
+}
+
+.nav-list {
+    padding: 60px 0;
+    margin-left: 405px;
+}
+
+.nav-list a {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+
+
+}
+
+a.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000;
+}
+
+hr {
+    border: 1px solid #EFEFEF;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    width: 255px;
+    margin-right: 32px;
+
+}
+
+section div.list {
+    padding: 0;
+}
+
+.social {
+    border: 1px solid #EFEFEF;
+    padding: 38px;
+}
+
+div.img-social {
+    float: left;
+}
+
+div.img-social img {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-right: 20px;
+
+}
+
+div.contact {
+    float: right;
+}
+
+div.contact .p-number {
+    padding: 0;
+}
+
+.btn-bt {
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 12px 26px;
+    background-color: #fff;
+}
+
+footer p{
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    padding: 25px 0;
 }
