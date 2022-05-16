@@ -259,10 +259,10 @@ section.promo-bonus {
 
 }
 
-.form-mail{
+.form-mail {
     width: 225px;
     height: 35px;
-    border-radius:30px;
+    border-radius: 30px;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
@@ -276,7 +276,7 @@ input {
 }
 
 .mail-img {
-   padding: 53px 45px 0 0;
+    padding: 53px 45px 0 0;
 }
 
 .store-map {
@@ -315,7 +315,7 @@ input {
 }
 
 .track-img img {
-    padding: 56px 45px ;
+    padding: 56px 45px;
 }
 
 .logo-cards {
@@ -401,7 +401,14 @@ div.contact .p-number {
     background-color: #fff;
 }
 
-footer p{
+footer p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    padding: 25px 0;
+}
+
+footer a {
     font-size: 12px;
     line-height: 14px;
     color: #828282;
